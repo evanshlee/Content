@@ -1,7 +1,0 @@
-# AI personalization
-
-## chatGPT
-- 
-
-## copilot
-- 
