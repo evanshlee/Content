@@ -1,5 +1,5 @@
 ---
-tags: []
+tags: [ai, personalization, customization]
 ---
 
 # AI personalization/customization
