@@ -8,7 +8,7 @@ tags: [dependabot, incremental, comprehensive]
 
 ## 수 많은 옵션들, 처음부터 다 고려하면 좋지 않나?
 
-처음 올린 [dependabot 설정 PR](https://github.com/DaleStudy/daleui/pull/88)은 과할 정도로 방대했다.
+처음 올린 [dependabot 설정 PR](https://github.com/DaleStudy/daleui/commit/dedb235c2cb9128ab3ca0b4633bb4c0215295c29)은 과할 정도로 방대했다.
 
 ### dependabot.yml 핵심 설정 요약
 
