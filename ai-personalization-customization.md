@@ -1,5 +1,6 @@
 ---
 tags: [ai, personalization, customization]
+date: 2025-04-30
 ---
 
 # AI personalization/customization
