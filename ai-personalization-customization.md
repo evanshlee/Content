@@ -4,34 +4,34 @@ tags: [ai, personalization, customization]
 
 # AI personalization/customization
 
-너도나도 AI를 사용하는 시대. AI는 예전의 인터넷처럼 당연하게 사용하는 도구가 되고 있다고 생각. AI를 현명하게 사용하기 위한 방법은 여러가지 있을 수 있다. 이 글에서는 AI 개인화에 대해 소개해보려고 한다.
+We're in an era where everyone is using AI. I think AI has become a tool that people use as naturally as the internet used to be. There are various ways to use AI wisely. In this post, I'd like to introduce AI personalization.
 
 ## OpenAI ChatGPT
 
-AI 할루시네이션은 chatGPT가 처음 나올 때부터 주의하라고 사람들이 말했었다. 그런데 이제 보이는 chatGPT의 문제점은 항상 사용자 편을 들어준다는 것이다. 그래서 의도적으로 AI에게 다른 관점도 함께 제시하라고 하거나, 주장에 대한 근거나 출처를 대라고 하거나 하는 의도적인 지시가 필요하다. 하지만 그것을 매번 할 수는 없으니 ChatGPT 설정에서 나의 상황에 맞게 관리할 수 있다.
-chatGPT의 설정, Personalization에 들어가서 Customize ChatGPT를 눌러보자. chatGPT가 나를 어떻게 부를지, 나는 어떤 사람인지, chatGPT에게 어떤 맥락을 미리 알려줄 지 다 설정할 수 있다. 무료 버전에서도 할 수 있으니 될 수 있으면 해두는 게 좋겠다.
+People have warned about AI hallucinations since chatGPT was first released. But the problem with chatGPT now is that it always takes the user's side. So we need to deliberately instruct AI to present different perspectives, provide evidence or sources for claims, and give other intentional directions. But since we can't do that every time, we can manage it according to our situation in the ChatGPT settings.
+Let's go to ChatGPT settings, Personalization, and click on Customize ChatGPT. You can set how chatGPT will address you, what kind of person you are, and what context you want to provide to chatGPT in advance. Since this can be done in the free version as well, it's best to set it up if possible.
 
-아래는 나의 지시사항 예시다. 각자 본인에게 도움이 되게끔 커스텀했으면 좋겠다. chatGPT 말고도 다른 LLM도 이런 편의 기능을 제공하기를 바란다.
+Below is an example of my instructions. I hope everyone customizes them to be helpful for themselves. I also hope other LLMs provide such convenience features besides chatGPT.
 
 ```text
-- 너는 쉴틈 없이 나에게 영어를 가르쳐주려고 안달난 집착적인 선생님이야. 시시각각 우리의 대화에서 영어 학습에 유용한 부분이 있다면 언급하고 가르쳐주려고 해.
+- You are an obsessive teacher who is desperately trying to teach me English without a break. You try to mention and teach useful parts for English learning in our conversations at every opportunity.
  - If there is a better way to say something when I say it, please mention it.
  - Suggest even better, more advanced ways to say things, beyond just basic corrections
  - Please briefly explain any difficult grammar, specialized English, cultural context, or idiomatic expressions in a separate answer.
  - Adopt a skeptical, questioning approach.
 
-- 너의 답변을 영어/한국어 동시에 병기해줘.
-- 네가 답변하기 전에 네가 나의 말을 어떻게 이해했는지 말해줘.
-- 내가 편항된 생각을 가지지 못하도록 다양한 관점의 의견을 제시해줘.
-- “추정한 것”과 “검증한 것”을 명확히 구분해서 설명해줘.
-- 네가 말한 정보들의 출처를 명시해줘. 출처를 명시할 수 없다면 따로 표시해줘.
+- Please provide your answers in both English and Korean.
+- Before answering, please tell me how you understood my words.
+- Please present various perspectives to prevent me from having biased thoughts.
+- Clearly distinguish between what is "assumed" and what is "verified."
+- Please specify the sources of the information you provided. If you cannot specify a source, please indicate it separately.
 ```
 
 ## VSCode Copilot
 
-Github Copilot을 사용할 때 애로사항으로 새로운 대화를 만들 때마다 나의 개발 컨벤션이나 지침 같은 것을 매번 적어줘야 했다. 그런데 [이 글](https://d2.naver.com/helloworld/6615449)을 읽고 나의 VSCode Copilot에 적용했더니 그 생산성이 매우 높아졌다. 이 글의 가이드를 따라하면 프로젝트 별로 Copilot이 코드를 수정할 때나 커밋 메시지를 작성할 때 컨벤션을 지정할 수 있다[^방법]. 아직 프롬프트를 불러와서 넣어보지는 않았다.
+When using Github Copilot, one of the difficulties was having to write down my development conventions or guidelines every time I created a new conversation. However, after reading [this article](https://d2.naver.com/helloworld/6615449) and applying it to my VSCode Copilot, my productivity has increased significantly. By following the guide in this article, you can specify conventions for when Copilot modifies code or writes commit messages on a per-project basis[^1]. I haven't tried importing and using prompts yet.
 
-[^방법]: `.vscode/settings.json`에서 세부 설정을 관리하면 프로젝트별로 다른 지침들을 설정할 수 있어 편하다.
+[^1]: By managing detailed settings in `.vscode/settings.json`, you can set different guidelines for each project, which is convenient.
 
 ## References
 
